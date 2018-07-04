@@ -1,0 +1,55 @@
+body{
+	background: url('');
+	font-family: 'Marvel', sans-serif;
+	font-size: 25px;
+}
+
+header{
+    margin-bottom: 20px;
+
+}
+
+.btn-primary,.reset{
+	background: url('https://i.imgur.com/n0dSafu.jpg');
+	color: white;
+	font-family: 'Marvel', sans-serif;
+	font-size: 40px;
+	padding: 20px;
+    margin-top: 40px;
+    border-radius: 50%;
+    outline-color: black;
+}
+.btn-primary:hover, .reset:hover{
+    background-color: #202364;
+    border-radius: 50%;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: Marvel;
+}
+
+.thisChoice:hover{
+	background-color: #2c2064;
+	color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
